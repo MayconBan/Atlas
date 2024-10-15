@@ -52,7 +52,7 @@ class calculadora(object):
 		
 		def calculadora(self):
 			print()
-			
+#akineitor number			
 class adivinha(object):
 	def __init__(self):
 		
