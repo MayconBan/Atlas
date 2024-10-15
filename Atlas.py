@@ -35,12 +35,12 @@ while True:
 		funcoes.desligar()
 	
 	elif pergunta in ["adivinha", "adivinha "]:
-				while i < 1:
-					funcoes.adivinha()
-					p = input('Quer continuar(s/n) ')
-					if p == "n" :
-						i += 1
-				i -= 1
+		while i < 1:
+			funcoes.adivinha()
+			p = input('Quer continuar(s/n) ')
+			if p == "n" :
+				i += 1
+		i -= 1
 	
 	elif pergunta in ["calculadora", "calculadora "]:
 		while i < 1:
@@ -72,7 +72,8 @@ while True:
 		if na == 69:
 			print("{}Estou levando a vida e a cada dia esta pior ".format(n))
 		
-		else:print("{}Estou bem sim gracas ao algoristimo ".format(n))
+		else:
+			print("{}Estou bem sim gracas ao algoristimo ".format(n))
 	
 	#comandos de teste
 	#test commands
