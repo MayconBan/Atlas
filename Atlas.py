@@ -11,7 +11,7 @@ Senha_de_adimim = *****
 #mensagem inicial
 #initial message
 print("{}olá bom dia ".format(n))
-print('{}''Como vc gostaria de ser chamado'.format(n))
+print('{}Como vc gostaria de ser chamado'.format(n))
 
 #gerador de nuneros aleatorios 
 #ramdom number
