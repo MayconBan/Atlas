@@ -6,7 +6,7 @@ import os
 #variables being used
 n = "ATLAS"
 i = 0
-Senha_de_adimim = 
+Senha_de_adimim = *****
 
 #mensagem inicial
 #initial message
