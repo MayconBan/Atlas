@@ -84,4 +84,3 @@ while True:
 			print(na)
 		case "£":
 			print()
-
