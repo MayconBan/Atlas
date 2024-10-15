@@ -3,27 +3,34 @@ import random
 import os
 
 #variaveis que estão sendo usadas
-n = str("ATLAS")
+#variables being used
+n = "ATLAS"
 i = 0
 Senha_de_adimim = 
 
 #mensagem inicial
+#initial message
 print("{}olá bom dia ".format(n))
 print('{}''Como vc gostaria de ser chamado'.format(n))
 
 #gerador de nuneros aleatorios 
+#ramdom number
 na = random.randint(0,100)
 
 #define seu nome
+#define your name
 NomePlayer = input("???: ")
 
 #loop de perguntas e respostas
+#question and answer loop
 while True:
 	
 	#Onde pega a pergunta
+	#Where do you get the question
 	pergunta = input("{}:".format(NomePlayer))
 	
 	#funções
+	#functions
 	if pergunta in ["sair", "desligar", "off"]:
 		funcoes.desligar()
 	
@@ -56,6 +63,7 @@ while True:
 		NomePlayer = input("novo nome: ")
 
 	#respostas
+	#answers
 	elif pergunta in ["ola", "oi", "ei", "olá", "ola ", "oi ", "ei ", "olá " ]:
 		print("{}Olá {} como vai".format(n, NomePlayer))
 		
@@ -67,6 +75,7 @@ while True:
 		else:print("{}Estou bem sim gracas ao algoristimo ".format(n))
 	
 	#comandos de teste
+	#test commands
 	match pergunta:
 		case "taboada":
 			funcoes.taboada()
