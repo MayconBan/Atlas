@@ -1,4 +1,6 @@
 n = "Atlas:"
+#Mensagem de desligar
+#Hang up message
 class desligar(object):
    def __init__(self):
    	self.msg = print("Atlas: Tchau")
@@ -6,35 +8,28 @@ class desligar(object):
    	def desligar(self):
    		print()
    		
-   		
+#taboada
+#multiplication table
 class taboada(object):
 	def __init__(self):
          taboada =int(input('{} digite um numero - '.format(n)))
-         a = (taboada * 1)
-         b = (taboada * 2)
-         c = (taboada * 3)
-         d = (taboada * 4)
-         e = (taboada * 5)
-         f = (taboada * 6)
-         g = (taboada * 7)
-         h = (taboada * 8)
-         i = (taboada * 9)
-         j = (taboada * 10)
          print('=-=-'*20)
-         print('{}×1={}'.format(taboada,a))
-         print('{}×2={}'.format(taboada,b))
-         print('{}×3={}'.format(taboada,c))
-         print('{}×4={}'.format(taboada,d))
-         print('{}×5={}'.format(taboada,e))
-         print('{}×6={}'.format(taboada,f))
-         print('{}×7={}'.format(taboada,g))
-         print('{}×8={}'.format(taboada,h))
-         print('{}×9={}'.format(taboada,i))
-         print('{}×10={}'.format(taboada,j))
+         print('{}×1={}'.format(tab,tab*1))
+         print('{}×2={}'.format(tab,tab*2))
+         print('{}×3={}'.format(tab,tab*3))
+         print('{}×4={}'.format(tab,tab*4))
+         print('{}×5={}'.format(tab,tab*5))
+         print('{}×6={}'.format(tab,tab*6))
+         print('{}×7={}'.format(tab,tab*7))
+         print('{}×8={}'.format(tab,tab*8))
+         print('{}×9={}'.format(tab,tab*9))
+         print('{}×10={}'.format(tab,tab*10))
          print('=-=-'*20)
          def taboada(self):
          	print()
 
+#antessesor e sucessor
+#predecessor and successor
 class antessesor(object):
    def __init__(self):
    	n =int(input('{}digite um numero -').format(n))
@@ -43,7 +38,9 @@ class antessesor(object):
    	print('o numero digitado foi {}, seu anterssesor e {}, e seu sucessor e {}'.format(n,a,s))
    	def antessesor(self):
    		print()
-   		
+
+#Calculadora 
+#calculator
 class calculadora(object):
 	def __init__(self):
 		
